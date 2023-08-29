@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mexican Cuisine</title>
+    <style>
+      body {
+        background: radial-gradient(
+          circle at -1% 57.5%, 
+          rgb(19, 170, 82) 0%, 
+          rgb(0, 102, 43) 90%);
+      }
+
+      h1 {
+        text-align: center;
+        color: red; 
+      }
+
+      h2 {
+        text-align: center;
+        font-family: "Brush Script MT", "cursive";
+
+      }
+      p{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, rgb(0, 102, 43) 90%);
+        background: white;
+        font-size: 20px;
+        border-radius: 6px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+      }
+
+      button:hover {
+        background: gold;
+        cursor: pointer;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      footer {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 18px;
+        font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+        color: gray
+      }
+
+      .theme-button {
+        font-size: 10px;
+        background: black;
+        color: white;
+        padding: 5 8px;
+      }
+
+      .theme-button:hover {
+        color: black;
+        background: white;
+      }
+      .pork-tamal-picture{
+        border-radius: 10px;
+        transition: all 150ms ease-in-out;
+      } 
+      .pork-tamal-picture:hover {
+        filter: contrast(80%);
+        transform: scale(1.1);
+      }
+      .grid {
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+      }
+
+      .grid img {
+        width: 100%;
+        border-radius: 8px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .grid img:hover {
+        transform: scale(2);
+      }
+      .dark {
+        background:linear-gradient(109.6deg, 
+        rgb(255, 24, 134) 11.2%, 
+        rgb(252, 232, 68) 52%, 
+        rgb(53, 178, 239) 100.2%);
+        color:  #ffc60b;
+      }
+
+      .dark .container {
+        background: linear-gradient(110.7deg, 
+        rgb(9, 154, 151) 6.3%, 
+        rgb(21, 205, 168) 90.6%);
+      }
+
+      .dark a {
+        color: #c31207;
+      }
+    </style>
+</head>
+<body>
+  <button class="theme-button">Change theme</button>
+    <div class="container">
+    <h1>Cooking <em>Mexican Cuisine</em></h1>
+    <h2>My favorite hobby</h2>
+    <a href="https://www.willflyforfood.net/mexican-food/" target="_blank">
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/684/original/Tamal_de_puerco.jpg?1686752401"
+        alt="Pork tamal with chile cascabel./tamal de puerco con chile de cascabel."
+        class="pork-tamal-picture"
+        />
+    </a>
+    <div class="grid">
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/683/original/Mole_con_arroz.png?1686752020"
+      alt="Chicken mole with mexican rice./mole de pollo con arroz mexicano."
+      class="chicken-mole-picture"
+    />
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/682/original/flautas-de-pollo-mexicanas.jpg?1686751997"
+      alt="Flautas de pollo con salsa de tomatillo y serrano, pico de gallo, lechuga y queso fresco."
+      class="chicken-flautas-picture"
+    />
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/681/original/caldo-de-menudo-traditional-mexican-food_664712-82.jpg?1686751977"
+      alt="Beef stomach with soup of chile guajillo, maiz, oregano; top it off with slices of jalapeño, onions, lime, cilantro and chile of arbol.Panza de res con caldo de chile guajillo, maiz, oregano; acompañado con rajas de chile de jalapeño, cebolla, chile de arbol, cilantro y limon."
+      class="menudo-picture"   
+      />
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/680/original/Enchiladas_potosinas.jpg?1686751595"
+      alt="Enchiladas potosinas filled in with fresh cheese, panela chesse and salsa; on top of it has slices of onions, cilantro, cream cheese, salsa, refried beans and rice. Enchiladas potosinas rellenadas con queso fresco, queso panela, y salsa; acompañado con cebolla, cilantro, crema, una salsa picosa, frijoles refritos y arroz. "
+      class="enchiladas-potosinas-picture"    
+      />
+    </div>
+    <p>
+      Mexican cuisine is a complex and ancient cuisine, with techniques 
+      and skills developed over thousands of years of history. It is created 
+      mostly with ingredients native to Mexico, as well as those brought over 
+      by the Spanish conquistadors, with some new influences since then. 
+      <br /><br />
+      Like Italian, Chinese, and Japanese food, Mexican cuisine is one of the 
+      most popular cuisines in the world. Visit any major city and you’re sure 
+      to find at least one Mexican restaurant. In my opinion, it’s one of the 
+      best cuisines in the world. UNESCO seems to agree.
+      <br /><br />
+      In 2010, traditional Mexican cuisine was one of the first two cuisines 
+      given <em>Intangible Cultural Heritage</em> status by UNESCO. 
+      What that means is that traditional Mexican food is a 
+      cultural treasure that’s worth protecting and preserving.
+      <br /><br />
+    📑
+    <a href= "https://en.wikipedia.org/wiki/Mexican_cuisine"
+        target="_blank">
+        <strong>Read on Wikipedia</strong></a>
+        <br /><br />
+    📖
+    <a href="https://www.willflyforfood.net/mexican-food/"
+        target="_blank">
+        <strong>Read on Will Fly for Food Blog</strong>
+  </p>
+    <button><a href="https://youtu.be/o_-NRMYO1Ak"
+        target="_blank"> Learn a bit of it's History
+    </a>
+    </button>
+    <footer>
+      Coded by Rocio Hernández
+    </footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        // body.classList.toggle("dark");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+</body>
+</html>
