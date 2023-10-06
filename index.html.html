@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous"
+    >
     <title>Mexican Cuisine</title>
     <style>
       body {
@@ -31,6 +37,14 @@
         max-width: 100%;
       }
 
+      section {
+       background: #FFFFFF;
+       padding: 30px;
+       border-radius: 6px;
+       box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+       margin: 20px 0;
+      }
+
       button {
         display: block;
         margin: 0 auto;
@@ -43,7 +57,7 @@
       }
 
       button:hover {
-        background: gold;
+        background: #cd0a0a;
         cursor: pointer;
       }
       .container {
@@ -101,8 +115,19 @@
         background:linear-gradient(109.6deg, 
         rgb(255, 24, 134) 11.2%, 
         rgb(252, 232, 68) 52%, 
-        rgb(53, 178, 239) 100.2%);
-        color:  #ffc60b;
+        rgb(53, 178, 239) 100.2%); 
+        font-family: sans-serif;
+        color: whitesmoke;
+        font-weight: bold;
+      }
+      .dark section {
+        background: #ffc93c;
+      }
+      .dark h1 {
+        color: whitesmoke;
+      }
+      .dark h2 {
+        color: #ffc93c;
       }
 
       .dark .container {
@@ -112,7 +137,22 @@
       }
 
       .dark a {
-        color: #c31207;
+        color: whitesmoke;
+      }
+      .dark button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid radial-gradient(circle at -1% 57.5%, whitesmoke);
+        background: #f6378f;
+        font-size: 20px;
+        border-radius: 6px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .dark button:hover {
+        background: #ffc93c;
+        cursor: pointer;
       }
     </style>
 </head>
@@ -151,20 +191,24 @@
       />
     </div>
     <p>
+      <section>
       Mexican cuisine is a complex and ancient cuisine, with techniques 
       and skills developed over thousands of years of history. It is created 
       mostly with ingredients native to Mexico, as well as those brought over 
       by the Spanish conquistadors, with some new influences since then. 
-      <br /><br />
+      </section>
+      <section>
       Like Italian, Chinese, and Japanese food, Mexican cuisine is one of the 
       most popular cuisines in the world. Visit any major city and you’re sure 
       to find at least one Mexican restaurant. In my opinion, it’s one of the 
       best cuisines in the world. UNESCO seems to agree.
-      <br /><br />
+    </section>
+    <section>
       In 2010, traditional Mexican cuisine was one of the first two cuisines 
       given <em>Intangible Cultural Heritage</em> status by UNESCO. 
       What that means is that traditional Mexican food is a 
       cultural treasure that’s worth protecting and preserving.
+    </section>
       <br /><br />
     📑
     <a href= "https://en.wikipedia.org/wiki/Mexican_cuisine"
